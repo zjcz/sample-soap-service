@@ -10,6 +10,8 @@ The project uses the following technologies:
 - Maven
 - H2 Database
 
+For a sample REST web service, see the [Sample REST Service - Movie API](https://www.github.com/zjcz/sample-rest-service) project.
+
 ## Setup
 
 To get started, clone the repository and navigate to the project directory
@@ -32,7 +34,7 @@ mvn spring-boot:run
 ```
 
 ## Apache Tomcat
-The project can be product a WAR file to be installed on Apache Tomcat using the following command:
+The project can produce a WAR file to be installed on Apache Tomcat using the following command:
 
 ```bash 
 mvn clean package
@@ -252,7 +254,7 @@ This project was not intended for production use and is not secure. It is intend
 
 ## ToDo
 
-- Add authentication 
+- Add authentication - Add different authentication methods (Basic, OAuth, etc.) 
 
 ## References
 
